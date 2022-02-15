@@ -1,7 +1,8 @@
-@startuml System_Application
+@startuml Class
+scale 2
 !define DARKBLUE
 !includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
-package System_Application{ 
+package Application{ 
 package Errors_Blueprint {
 class Errors {
  # forbidden()
